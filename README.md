@@ -43,7 +43,7 @@ Convert aircraft journey summary forms (images) into structured JSON for downstr
 |----------|--------------|
 | **Traditional OCR (Tesseract) + NLP** | Poor handwriting recognition (~60% accuracy). Would require complex 4-stage pipeline: OCR → text cleanup → parsing → structuring |
 | **AWS Textract** | Good for printed text but struggles with handwriting. Lacks domain context for aviation abbreviations. Higher cost (~$0.0015/form) |
-| **GPT-4 Vision** | Excellent accuracy but ~10x more expensive (~$0.01/form). Overkill for this use case |
+| **GPT-4 Vision** | Excellent accuracy but estimated 10x more expensive (~$0.01/form). Overkill for this use case |
 
 ### Key Design Decisions
 
