@@ -1,0 +1,47 @@
+[
+  {
+    "image_path": "./image/sample_image.jpeg",
+    "status": "success",
+    "data": {
+      "aircraft_model": "Airbus A320",
+      "registration_number": "9M-XX1",
+      "departure_airport": "KUL",
+      "arrival_airport": "SIN",
+      "crew": 4,
+      "passengers": null,
+      "fuel": "12k",
+      "load": "150",
+      "defect_message": "NAV SDL DD 244161 ANY DD 244162 A/C USS FEED CONTROL AND A/C ESS FEED PHY SW FAULT LT TO BE CHECKED OPERATIVE."
+    }
+  },
+  {
+    "image_path": "./image/form_2.png",
+    "status": "success",
+    "data": {
+      "aircraft_model": "Airbus A320",
+      "registration_number": "9M-YY2",
+      "departure_airport": "JFK",
+      "arrival_airport": "LHR",
+      "crew": 5,
+      "passengers": null,
+      "fuel": "15k",
+      "load": "180",
+      "defect_message": "Eng #1 oil leak observed. Further inspection req before next flt. MX consulted."
+    }
+  },
+  {
+    "image_path": "./image/form_3.png",
+    "status": "success",
+    "data": {
+      "aircraft_model": "Airbus A320",
+      "registration_number": "9M-ZZ3",
+      "departure_airport": "CDG",
+      "arrival_airport": "NRT",
+      "crew": 6,
+      "passengers": null,
+      "fuel": "14k",
+      "load": "175",
+      "defect_message": "Hydrarulic Sys A - low pressure. Fluid req. Check valve leak? MX notified. DO NOT FLY."
+    }
+  }
+]
